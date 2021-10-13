@@ -1,5 +1,6 @@
 # skinet-api
 
+## Here gonna be the memo how I created the project
 ```
 // create solution file
 dotnet new sln
