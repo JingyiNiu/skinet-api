@@ -1,4 +1,5 @@
 # skinet-api
+I'm buidling a full-stack web application called skinet. Here is the back-end part built by .NET 5
 
 ## Here gonna be the memo how I created the project
 ```
