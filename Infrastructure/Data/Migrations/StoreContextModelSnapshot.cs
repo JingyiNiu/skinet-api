@@ -13,7 +13,7 @@ namespace Infrastructure.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.10");
+                .HasAnnotation("ProductVersion", "5.0.1");
 
             modelBuilder.Entity("Core.Entities.Product", b =>
                 {
@@ -23,7 +23,6 @@ namespace Infrastructure.Data.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(180)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Name")
@@ -31,7 +30,7 @@ namespace Infrastructure.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("PirctureUrl")
+                    b.Property<string>("PictureUrl")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
